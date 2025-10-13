@@ -18,7 +18,12 @@ Copilot works in **sessions** - where it analyzes the problem, plans its approac
 
 In the pull request timeline, you will be able to see progress indicators showing when Copilot starts and completes work
 
-You can watch the Coding Session journal live and see all the steps and logic Copilot Coding Agent session is taking to solve the task, or view it later after Copilot has completed its work
+You can access the Coding Session logs in two ways:
+
+- **🔴 Live**: Watch the logs in real-time to see all the steps and logic Copilot Coding Agent session is taking to solve the task
+- **📋 Review**: View the session logs after Copilot has completed its work to review the decisions made
+
+<!-- TODO: SCREENSHOT of coding agent session journal -->
 
 #### 💬 Providing feedback to Copilot
 
