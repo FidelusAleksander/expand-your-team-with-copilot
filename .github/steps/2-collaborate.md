@@ -4,29 +4,42 @@ Now that you've assigned the Copilot Coding Agent to your Issue - you can see th
 
 Let's learn how to review Copilot's work and provide feedback, just like you would with any team member.
 
-### 📖 Theory: Understanding Copilot's pull request workflow
+### 📖 Theory: Understanding Copilot's collaboration workflow
 
-When Copilot creates a pull request in which you'll find:
+Copilot provides transparency into its work through multiple channels on the pull request - let's look into those!
 
-- **Pull Request Description** - Copilot will keep a concise overview of its goal and implementation.
-- **Timeline** - Copilot will provide high-level notes about starting working sessions and commits.
-- **Session History** - A detailed log of the steps Copilot took to implement the issue.
+#### 📝 Pull request description
 
-You can provide feedback to Copilot the same way you would a colleague. These actions trigger Copilot to begin another working session.
+The description will be continuously updated as Copilot progresses through its work. You can watch the description updates in real time!
 
-- **Comments** - Add a comment on the pull request conversation.
-- **Reviews** - Combine multiple comments in a pull request review.
-- **@ mentions** - You can tag Copilot in a comment just like a coworker.
+#### 🤖 Coding Agent Sessions
 
-> [!IMPORTANT]
-> Copilot only acts on review comments when explicitly tagged with `@copilot`. Without this mention, your review feedback will not trigger Copilot to respond or make changes.
+Copilot works in **sessions** - where it analyzes the problem, plans its approach, and implements changes. The first session is started immediately when Coding Agent gets assigned.
 
-### Important Considerations
+In the pull request timeline, you will be able to see progress indicators showing when Copilot starts and completes work
 
-- Copilot's work is done on a branch with the convention `copilot/*` and does not have access to other branches.
-- Copilot cannot trigger Actions workflows.
-  - Workflows triggered on pull requests require human approval before running.
-- Rulesets and similar protections are still enforced.
+You can watch the Coding Session journal live and see all the steps and logic Copilot Coding Agent session is taking to solve the task, or view it later after Copilot has completed its work
+
+#### 💬 Providing feedback to Copilot
+
+Once Copilot completes its work, you can collaborate with it just like any team member. The key to effective collaboration is understanding how to trigger new coding sessions:
+
+Copilot will only act on comments or pull request reviews when they include a `@copilot` mention.
+
+This means you can also leave regular comments for your other, human team members and Copilot won't start unnecessary sessions!
+
+```mermaid
+flowchart LR
+    A[Leave PR Comment/Review] --> B{Contains @copilot?}
+    B -->|Yes| C[🤖 New Coding Agent Session]
+    B -->|No| D[💬 Regular Comment Only]
+```
+
+#### ⚙️ Important considerations
+
+- Copilot's work is done on a branch with the convention `copilot/*` and does not have access to other branches
+- Copilot cannot trigger Actions workflows - workflows triggered on pull requests require human approval before running
+- Rulesets and similar protections are still enforced
 
 > [!TIP]
 > All work created by Copilot is committed with the assignee as a co-contributor (keeping your contribution graph safe). 💕
