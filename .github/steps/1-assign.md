@@ -8,9 +8,14 @@ After some discussion with the principal, he has accepted that new features will
 
 Let's set our teachers up for success by enrolling Copilot (in our school) to handle updates while we are away.
 
+<details>
+<summary>📸 Website screenshot</summary><br/>
+
 <img width="600" alt="screenshot of Mergington High School WebApp" src="https://github.com/user-attachments/assets/6f5c59ab-398b-4fb0-8efd-0aa7b72fef97" />
 
-### Copilot is now your coding agent!
+</details>
+
+### 📖 Theory: Copilot is now your coding agent
 
 In previous exercises, we used Copilot **chat**, **edits** and **agent** mode. While those were super helpful, **Copilot coding agent** takes this to the next level by operating entirely on GitHub. No code editor required! 😎
 
@@ -23,7 +28,7 @@ In previous exercises, we used Copilot **chat**, **edits** and **agent** mode. W
 | **MCP Support**   | Yes                           | Yes                      |
 | **Vibe Coding**   | 😎                            | 😎                       |
 
-### How does it work?
+#### How does it work?
 
 From the contributor perspective, the flow is very similar to a normal workflow.
 
@@ -88,7 +93,7 @@ flowchart LR
     class pl1,pl2,pl3,pl4 purple-line
 ```
 
-### Is this safe?
+#### Is this safe?
 
 Several security precautions have been implemented to help reduce concerns. Here are a few limitations that you might need to consider when asking Copilot to work on an issue.
 

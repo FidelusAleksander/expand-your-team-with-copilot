@@ -1,5 +1,7 @@
 ## Step 2: Collaborate with Copilot
 
+### 📖 Theory: Understanding Copilot's pull request workflow
+
 When Copilot creates a pull request in which you'll find:
 
 - **Pull Request Description** - Copilot will keep a concise overview of its goal and implementation.
@@ -13,9 +15,9 @@ You can provide feedback to Copilot the same way you would a colleague. These ac
 - **@ mentions** - You can tag Copilot in a comment just like a coworker.
 
 > [!IMPORTANT]
-> Copilot only acts on review comments when explicitly tagged with `@copilot`. Without this mention, your review feedback will not trigger Copilot to respond or make changes. 
+> Copilot only acts on review comments when explicitly tagged with `@copilot`. Without this mention, your review feedback will not trigger Copilot to respond or make changes.
 
-#### Important Considerations
+### 📖 Theory: Important Considerations
 
 - Copilot's work is done on a branch with the convention `copilot/*` and does not have access to other branches.
 - Copilot cannot trigger Actions workflows.
@@ -80,7 +82,6 @@ You can provide feedback to Copilot the same way you would a colleague. These ac
    @copilot Please change this description to be inspired by Japanese Manga.
    It needs more personality to attract students.
    ```
-
 
 1. At the top of the changes list, click the **Finish your review** button and select **Submit Review**.
 
