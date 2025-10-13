@@ -1,5 +1,9 @@
 ## Step 2: Collaborate with Copilot
 
+Now that you've assigned the Copilot Coding Agent to your Issue - you can see that Copilot opened up a Pull Request and linked it to your issue!
+
+Let's learn how to review Copilot's work and provide feedback, just like you would with any team member.
+
 ### 📖 Theory: Understanding Copilot's pull request workflow
 
 When Copilot creates a pull request in which you'll find:
@@ -17,7 +21,7 @@ You can provide feedback to Copilot the same way you would a colleague. These ac
 > [!IMPORTANT]
 > Copilot only acts on review comments when explicitly tagged with `@copilot`. Without this mention, your review feedback will not trigger Copilot to respond or make changes.
 
-### 📖 Theory: Important Considerations
+### Important Considerations
 
 - Copilot's work is done on a branch with the convention `copilot/*` and does not have access to other branches.
 - Copilot cannot trigger Actions workflows.
