@@ -168,11 +168,10 @@ Before we can start delegating requests from the teachers to Copilot, we need to
 
    <img width="300" src="https://github.com/user-attachments/assets/79800990-6d5c-4055-acc9-b15734fe8b80">
 
-1. Change the **Repository access** field to `Only selected repositories`.
+1. Check that the **Repository access** field is set to `All repositories`.
 
-   <img width="300" src="https://github.com/user-attachments/assets/7a665042-b064-4baf-a7e7-0dfc0261063e">
+   Alternatively, if you prefer to enable it only for this exercise, select `Only selected repositories` and select this exercise repository ({{ full_repo_name }}).
 
-1. Click the **Select repositories** button and ensure this exercise is select.
 
    <img width="300" src="https://github.com/user-attachments/assets/4bec16dc-7b52-4e95-b554-47252b622adb">
 
@@ -183,11 +182,7 @@ There are several important issues to get done before we leave, but let's do a t
 > [!TIP]
 > Try to make an issue's goal and acceptance criteria clear. Also, breaking down large tasks into shorter ones provides more opportunity for feedback!
 
-1. Return to your [exercise repository](<(https://github.com/{{full_repo_name}})>).
-
-1. In the top navigation, select the **Issues** tab.
-
-1. Above the list, on the top right, click the **New Issue** button.
+1. Go to the **Issues** tab of this exercise repository and click the **New Issue** button.
 
 1. Set the **Title** to:
 
@@ -212,7 +207,7 @@ There are several important issues to get done before we leave, but let's do a t
 
    <img width="350" src="https://github.com/user-attachments/assets/444f9432-17c3-4466-bb8e-aa4e44238130" />
 
-1. At the bottom, click the **Create** button. After a moment, you will notice:
+1. As you assign the issue to Copilot - after a moment, you will notice:
 
    - The issue will have an `👀` reaction to show Copilot is reading the issue.
    - The activity log shows you assigned the issue to Copilot.
