@@ -78,7 +78,9 @@ flowchart LR
 
    <img width="500" src="https://github.com/user-attachments/assets/2c80fa91-1123-4813-a801-42af368240b9" />
 
-1. If necessary, wait for Copilot to finish working on the changes.
+1. If the Copilot session is still ongoing, monitor the session journal.
+
+1. When Copilot completes its work and requests you as a reviewer proceed to the next activity!
 
 > [!TIP]
 > You can use the **edited** dropdown to view the pull request description change history.
@@ -90,7 +92,9 @@ flowchart LR
 
 ### ⌨️ Activity: Provide Copilot feedback
 
-1. Back in the pull request, click the **Add your review** button.
+Now that Copilot finished it's working session, let's review it's work and provide some feedback!
+
+1. Click the **Add your review** button in the pull request
 
    <img width="350" src="https://github.com/user-attachments/assets/d71847b9-573b-451e-9c85-946a6988e3f0" />
 
@@ -107,22 +111,22 @@ flowchart LR
 
 1. At the top of the changes list, click the **Finish your review** button and select **Submit Review**.
 
-1. After a moment, Copilot will add a new session entry and indicate progress on the timeline.
+1. After a moment, Copilot will add a new session entry and indicate progress on the timeline. Wait for Copilot to finish working on the change
 
-1. Wait for Copilot to finish working on the change and then click the **View changes** button to see the updated activity description.
+   > 🪧 **Note:** This can take some time! You can monitor the new session or take a break.
 
-   <img width="350" src="https://github.com/user-attachments/assets/a5ccd7b5-4df8-406a-b3a8-80328ba210e5" />
+1. Once Copilot is finished, you will get requested as a reviewer again!
 
 1. Activate the pull requests by clicking the **Ready to Review** button then click the **Merge** button.
 
-1. With our review submitted and the pull request merged, Mona should be checking our work. Give her a moment to respond with the next lesson.
+1. With the pull request merged, Mona should be checking our work. Give her a moment to respond with the next lesson.
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
 If you don't get feedback, here are some things to check:
 
-- Make sure your commit the changes in the `src/static/` directory to the branch `accelerate-with-copilot` and pushed/synchronized to GitHub.
-- If Mona found a mistake, simply make a correction and push your changes again. Mona will check your work as many times as needed.
+- Make sure your reviews include `@copilot` mention
+- To progress to the next step in this lab you need to merge the pull request!
 
 </details>
