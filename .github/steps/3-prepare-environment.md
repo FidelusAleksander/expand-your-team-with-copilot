@@ -8,13 +8,12 @@ Let's learn what are the different ways you can customize the Copilot Coding Age
 
 Copilot's environment can be customized in several ways, each serving a different purpose:
 
-| Option                      | What it does                                                                         | Example Customizations                               |
-| --------------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------- |
-| 📝 **Copilot Instructions** | Provide project-specific context and guidance for Copilot before it starts.          | Roles, business rules, useful commands               |
-| ⚙️ **Copilot Setup Steps**  | Pre-configure the development environment to make sessions faster and more reliable. | Pre-install tools, dependencies, set up Python       |
-| 🌎 **Environment**          | Use repository environments for configuration, secrets, and deployment settings.     | Environment variables, secrets, deployment configs   |
-| 🧩 **MCP Servers**          | Extend Copilot's capabilities with custom Model Context Protocol servers.            | Integrate with external APIs, automate browser tasks |
-
+| Option                      | What it does                                                                    | How to provide this customization                                     |
+| --------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| 📝 **Copilot Instructions** | Provide project-specific context and guidance for Copilot for it's session      | Add details to `.github/copilot-instructions.md`                      |
+| ⚙️ **Copilot Setup Steps**  | Pre-configure the coding agent session with all required tools and dependencies | Configure `.github/workflows/copilot-setup-steps.yml` workflow file                   |
+| 🌎 **Environment**          | Provide configuration and secret values that the Agent might need               | This is available in **Repository settings → Environments → copilot** |
+| 🧩 **MCP Servers**          | Extend Copilot's capabilities with custom Model Context Protocol servers.       | This is available in **Repository settings → Copilot → Coding Agent** |
 
 > [!NOTE]
 > The Copilot Coding Agent comes with [GitHub](https://github.com/github/github-mcp-server) and [Playwright](https://github.com/microsoft/playwright-mcp) MCP servers preinstalled. By default Coding Agent sessions only have access to read only action of the GitHub MCP server. This can be customized ([read more](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/coding-agent/extend-coding-agent-with-mcp#customizing-the-built-in-github-mcp-server))
