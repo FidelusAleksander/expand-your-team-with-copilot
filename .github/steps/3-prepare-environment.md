@@ -21,6 +21,8 @@ Copilot's environment can be customized in several ways, each serving a differen
 
 ### ⌨️ Activity: Create instructions to guide Copilot
 
+You'll write Copilot instructions that include details about your school, the roles Copilot should assume, and the common tasks teachers request. This will help Copilot interact more naturally and support your team effectively.
+
 1. In the top navigation, select the **Code** tab.
 
 1. Create a new branch with the name `prepare-environment`.
@@ -62,7 +64,7 @@ Copilot's environment can be customized in several ways, each serving a differen
 
 ### ⌨️ Activity: Prepare the coding environment for copilot
 
-Customizing Copilot's development environment and adjusting [permissions](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token) is done with a unique [GitHub Actions](https://github.com/features/actions) workflow. For all configuration options, see the [pre-installing dependencies for Copilot](https://docs.github.com/en/enterprise-cloud@latest/early-access/copilot/coding-agent/customizing-copilot-coding-agents-development-environment#pre-installing-tools-or-dependencies-in-copilots-environment) documentation.
+Customizing Copilot's development environment and adjusting [permissions](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/controlling-permissions-for-github_token) is done with a unique [GitHub Actions](https://github.com/features/actions) workflow. For all configuration options, see the [pre-installing dependencies for Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/coding-agent/customize-the-agent-environment#preinstalling-tools-or-dependencies-in-copilots-environment) documentation.
 
 1. Ensure you are still on the `prepare-environment` branch.
 
@@ -93,12 +95,12 @@ Customizing Copilot's development environment and adjusting [permissions](https:
 
        steps:
          - name: Checkout code
-           uses: actions/checkout@v4
+           uses: actions/checkout@v5
 
          - name: Set up Python
-           uses: actions/setup-python@v4
+           uses: actions/setup-python@v6
            with:
-             python-version: "3.x"
+             python-version: "3.13"
              cache: "pip"
 
          - name: Install Python dependencies
