@@ -54,7 +54,7 @@ Let's get you familiarized with the Agents panel!
 
 1. Click on the task to jump straight into the session logs in a new tab and track how Copilot is working on it in real time .
 
-1. You'll notice Copilot begins by running the customization steps you've setup in the previous step!
+1. You will notice Copilot begins by running the customization steps you've setup in the previous step!
 
    <img width="600" alt="Copilot session logs with copilot setup steps" src="https://github.com/user-attachments/assets/18b6814a-c1ee-4126-a0a2-e8e82f5da424" />
 
