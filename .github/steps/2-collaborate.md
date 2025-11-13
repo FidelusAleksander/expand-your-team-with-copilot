@@ -26,6 +26,7 @@ You can access the Coding Session logs in two ways:
 <details>
 <summary>📸 Copilot Session Logs </summary><br/>
 
+<!-- TODO: needs update -->
 <img width="800" alt="screenshot of copilot coding agent session logs" src="https://github.com/user-attachments/assets/1deb7182-27d2-48b4-9631-e6edb5199b98" />
 
 </details>
@@ -81,6 +82,9 @@ flowchart LR
    <img width="500" src="https://github.com/user-attachments/assets/088260e6-bae0-40af-8186-864eb3e7b8a2" />
 
 1. The new page shows a journal of Copilot's work. The left navigation is a list of each working session.
+
+   <!-- TODO: Update "The left navigation is a list of each working session."  -->
+   <!-- TODO: Update image  -->
 
    <img width="800" alt="screenshot of copilot coding agent session logs" src="https://github.com/user-attachments/assets/1deb7182-27d2-48b4-9631-e6edb5199b98" />
 
