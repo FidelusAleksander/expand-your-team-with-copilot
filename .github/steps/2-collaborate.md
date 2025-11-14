@@ -129,7 +129,7 @@ Now that Copilot has finished its working session, let's review its work and pro
 
    > 🪧 **Note:** This step is optional - if the coding agent session for the requested changes is already finished, don't worry - you can skip this step!
 
-   Using the bottom chat panel, right below the session logs - provide these new information that just came up!
+   Using the bottom chat panel, right below the session logs - provide this new information that just came up!
    
    ```md
    There is a slight change of plans - we got a bigger classroom assignment for this class
